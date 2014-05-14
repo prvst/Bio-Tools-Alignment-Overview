@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use GD::Simple;
 
-our $VERSION = "0.32";
+our $VERSION = "0.34";
 
 sub new {
 	my ($class, @args) = @_;
