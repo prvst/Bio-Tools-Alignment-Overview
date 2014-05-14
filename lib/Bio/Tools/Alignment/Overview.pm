@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use GD::Simple;
 
-our $VERSION = "0.3";
+our $VERSION = "0.32";
 
 sub new {
 	my ($class, @args) = @_;
@@ -217,6 +217,12 @@ This is the method responsible for generating the image file with png extension.
 =head1 AUTHOR
 
 Leprevost, C<< <leprevostfv at gmail.com> >>
+
+=begin HTML
+
+<p><img src="https://github.com/Leprevost/Bio-Tools-Alignment-Overview/raw/master/zenodo.9798.png" alt="DOI" /></p>
+
+=end HTML
 
 =head1 BUGS
 
