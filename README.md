@@ -3,8 +3,6 @@ Bio-Tools-Alignment-Overview
 Bio-Tools-Alignment-Overview is a module designed to help people (principally biologists) working with
 sequence alignments. The module produces a image file with a resumed birds-eye-view of the alignment file.
 
-![Alt text](zenodo.9798.png "DOI")
-
 For now you can ajust the sequence color, with time new customizations will be implemented.
 If you find some problem please let me know.
 
@@ -43,6 +41,8 @@ You can also look for information at:
 LICENSE AND COPYRIGHT
 
 Copyright (C) 2011 Leprevost
+
+![Alt text](zenodo.9798.png "DOI")
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
