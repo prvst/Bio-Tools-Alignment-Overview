@@ -220,7 +220,7 @@ Leprevost, C<< <leprevostfv at gmail.com> >>
 
 =begin HTML
 
-<p><a href="<img src="https://github.com/Leprevost/Bio-Tools-Alignment-Overview/raw/master/zenodo.9798.png" alt="DOI" />"></a></p>
+<p><a href="http://10.5281/zenodo.9798"><img src="https://github.com/Leprevost/Bio-Tools-Alignment-Overview/raw/master/zenodo.9798.png" alt="DOI" /></a></p>
 
 =end HTML
 
