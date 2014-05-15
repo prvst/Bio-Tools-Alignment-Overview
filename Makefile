@@ -22,7 +22,7 @@
 #     TEST_REQUIRES => {  }
 #     VERSION_FROM => q[lib/Bio/Tools/Alignment/Overview.pm]
 #     clean => { FILES=>q[Bio-Tools-Alignment-Overview-*] }
-#     dist => { SUFFIX=>q[gz], COMPRESS=>q[gzip -9f] }
+#     dist => { COMPRESS=>q[gzip -9f], SUFFIX=>q[gz] }
 
 # --- MakeMaker post_initialize section:
 
@@ -61,11 +61,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = Bio::Tools::Alignment::Overview
 NAME_SYM = Bio_Tools_Alignment_Overview
-VERSION = 0.34
+VERSION = 0.36
 VERSION_MACRO = VERSION
-VERSION_SYM = 0_34
+VERSION_SYM = 0_36
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 0.34
+XS_VERSION = 0.36
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib/arch
@@ -258,7 +258,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = Bio-Tools-Alignment-Overview
-DISTVNAME = Bio-Tools-Alignment-Overview-0.34
+DISTVNAME = Bio-Tools-Alignment-Overview-0.36
 
 
 # --- MakeMaker macro section:
@@ -502,7 +502,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) 'requires:' >> META_new.yml
 	$(NOECHO) $(ECHO) '  GD::Simple: '\''0'\''' >> META_new.yml
 	$(NOECHO) $(ECHO) '  Test::More: '\''0.98'\''' >> META_new.yml
-	$(NOECHO) $(ECHO) 'version: '\''0.34'\''' >> META_new.yml
+	$(NOECHO) $(ECHO) 'version: '\''0.36'\''' >> META_new.yml
 	-$(NOECHO) $(MV) META_new.yml $(DISTVNAME)/META.yml
 	$(NOECHO) $(ECHO) Generating META.json
 	$(NOECHO) $(ECHO) '{' > META_new.json
@@ -545,7 +545,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) '      }' >> META_new.json
 	$(NOECHO) $(ECHO) '   },' >> META_new.json
 	$(NOECHO) $(ECHO) '   "release_status" : "stable",' >> META_new.json
-	$(NOECHO) $(ECHO) '   "version" : "0.34"' >> META_new.json
+	$(NOECHO) $(ECHO) '   "version" : "0.36"' >> META_new.json
 	$(NOECHO) $(ECHO) '}' >> META_new.json
 	-$(NOECHO) $(MV) META_new.json $(DISTVNAME)/META.json
 

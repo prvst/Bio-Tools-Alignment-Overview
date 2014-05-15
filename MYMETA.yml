@@ -20,4 +20,4 @@ no_index:
 requires:
   GD::Simple: '0'
   Test::More: '0.98'
-version: '0.34'
+version: '0.36'
