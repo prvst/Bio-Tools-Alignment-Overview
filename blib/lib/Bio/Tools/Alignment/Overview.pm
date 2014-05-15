@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use GD::Simple;
 
-our $VERSION = "0.32";
+our $VERSION = "0.34";
 
 sub new {
 	my ($class, @args) = @_;
@@ -220,7 +220,7 @@ Leprevost, C<< <leprevostfv at gmail.com> >>
 
 =begin HTML
 
-<p><img src="https://github.com/Leprevost/Bio-Tools-Alignment-Overview/raw/master/zenodo.9798.png" alt="DOI" /></p>
+<p><a href="http://10.5281/zenodo.9798"><img src="https://github.com/Leprevost/Bio-Tools-Alignment-Overview/raw/master/zenodo.9798.png" alt="DOI" /></a></p>
 
 =end HTML
 
