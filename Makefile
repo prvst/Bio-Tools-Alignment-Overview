@@ -18,11 +18,11 @@
 #     LICENSE => q[perl]
 #     NAME => q[Bio::Tools::Alignment::Overview]
 #     PL_FILES => {  }
-#     PREREQ_PM => { GD::Simple=>q[0], Test::More=>q[0.98] }
+#     PREREQ_PM => { Test::More=>q[0.98], GD::Simple=>q[0] }
 #     TEST_REQUIRES => {  }
 #     VERSION_FROM => q[lib/Bio/Tools/Alignment/Overview.pm]
 #     clean => { FILES=>q[Bio-Tools-Alignment-Overview-*] }
-#     dist => { COMPRESS=>q[gzip -9f], SUFFIX=>q[gz] }
+#     dist => { SUFFIX=>q[gz], COMPRESS=>q[gzip -9f] }
 
 # --- MakeMaker post_initialize section:
 
@@ -472,7 +472,7 @@ realclean_subdirs :
 # Delete temporary files (via clean) and also delete dist files
 realclean purge ::  clean realclean_subdirs
 	- $(RM_F) \
-	  $(MAKEFILE_OLD) $(FIRST_MAKEFILE) 
+	  $(FIRST_MAKEFILE) $(MAKEFILE_OLD) 
 	- $(RM_RF) \
 	  $(DISTVNAME) 
 
@@ -851,7 +851,7 @@ ppd :
 	$(NOECHO) $(ECHO) '    <AUTHOR>Leprevost &lt;leprevostfv@gmail.com&gt;</AUTHOR>' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <IMPLEMENTATION>' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '        <REQUIRE NAME="GD::Simple" />' >> $(DISTNAME).ppd
-	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Test::More" VERSION="0.98" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <REQUIRE VERSION="0.98" NAME="Test::More" />' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '        <ARCHITECTURE NAME="x86_64-linux-gnu-thread-multi-5.18" />' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '        <CODEBASE HREF="" />' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    </IMPLEMENTATION>' >> $(DISTNAME).ppd
