@@ -22,7 +22,7 @@
 #     TEST_REQUIRES => {  }
 #     VERSION_FROM => q[lib/Bio/Tools/Alignment/Overview.pm]
 #     clean => { FILES=>q[Bio-Tools-Alignment-Overview-*] }
-#     dist => { COMPRESS=>q[gzip -9f], SUFFIX=>q[gz] }
+#     dist => { SUFFIX=>q[gz], COMPRESS=>q[gzip -9f] }
 
 # --- MakeMaker post_initialize section:
 

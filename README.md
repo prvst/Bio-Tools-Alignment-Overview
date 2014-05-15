@@ -42,7 +42,7 @@ LICENSE AND COPYRIGHT
 
 Copyright (C) 2011 Leprevost
 
-![Alt text](zenodo.9798.png "DOI")
+![Alt text](doi/zenodo.9798.png "DOI")
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
