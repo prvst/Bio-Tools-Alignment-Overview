@@ -42,6 +42,10 @@ LICENSE AND COPYRIGHT
 
 Copyright (C) 2011 Leprevost
 
+HOW TO CITE THIS WORK
+
+Please refer to the following DOI in order to cite this module.
+
 ![Alt text](doi/zenodo.9798.png "DOI")
 
 This program is free software; you can redistribute it and/or modify it
